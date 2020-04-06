@@ -1,0 +1,42 @@
+<html>
+<body>
+<title></TITLE>
+<head>
+<div id="akay">
+10 KI TABLE!<br>
+JAANKAR KYA KROGE?<br>
+CHLO AGAR ITNA FORCE KAR RHE HO TOH KRWADI PRINT:
+<input type="button" id="b1" value="FOR LOOP" style="background-color:ORANGE;color:black;">
+<input type="button" id="b2" value="DO WHILE LOOP" style="background-color:WHITE;color:black;">
+<input type="button" id="b3" value="WHILE LOOP" style="background-color:GREEN;color:black;">
+</div>
+<script src =></script>
+<script>
+$(document).ready(function(){
+$("#b1").click(function(){
+for(var x=1;x<=10;x++)
+{
+document.write(10,"*",x,"=",10*x,"<br>");
+}
+});
+$("#b2").click(function(){
+alert("TABLE OF 10");
+var x=1
+do{
+document.write(10,"*",x,"=",10*x,"<br>");
+x++;
+}while(x<=10);
+   });
+$("#b3").click(function(){
+alert("TABLE OF 10");
+var x=1
+while(x<=10){
+document.write(10,"*",x,"=",10*x,"<br>");
+x++;
+}
+});
+  });
+</script>
+</head>
+</body>
+</html>
